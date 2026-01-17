@@ -27,3 +27,17 @@
 .product > .product-img{
     width: 100px;
 }
+.skeleton-container{
+    margin-top: 50px;
+    display: flex;
+    overflow-wrap: wrap;
+}
+.skeleton{
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    background-color: #f0f0f0f0;
+}
+.txtsearch{
+    margin-top: 20px;
+}

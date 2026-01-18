@@ -55,6 +55,9 @@ Currently, two official plugins are available:
 - git remote add origin https://github.com/username/project-name.git
 - check
 - git remote -v
+- git push -u origin main
+- git pull origin main --allow-unrelated-histories
+- git branch
 - git branch -M main
 - git push -u origin main
 

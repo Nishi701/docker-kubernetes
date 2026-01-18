@@ -45,3 +45,28 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 >>>>>>> 156ac8f (ReactBasciCncpt)
+
+---
+- git init
+- git status
+- git add .gitignore
+- git add .
+- git commit -m "Initial project setup"
+- git remote add origin https://github.com/username/project-name.git
+- check
+- git remote -v
+- git branch -M main
+- git push -u origin main
+
+-for whenever u change code
+---
+git status
+git add .
+git commit -m "Added login feature"
+git push
+---
+--useful git command
+git log          # commit history
+git diff         # see changes
+git pull         # get latest code
+git clone URL    # download repo

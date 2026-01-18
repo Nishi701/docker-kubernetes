@@ -35,6 +35,17 @@ Stop a Running Container
 
 docker stop <container id >
 
+---
+- docker save ecommerce-react-demo > ecommerce-react-demo.tar
+- docker save -o ecommerce-react-demoo.tar ecommerce-react
+
+#receiver side
+-to load image : docker load -i ecommerce-react-demo.tar
+-to check image :  docker images
+- to run container :  docker run -d -p 8083:80 ecommerce-react-demo
+- see running container :  docker ps
+
+---
 
 >>>>>>> f75446f (React E-Commerce project updated: Docker setup, README)
 # React + Vite

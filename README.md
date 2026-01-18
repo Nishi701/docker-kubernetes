@@ -24,6 +24,7 @@ docker build -t ecommerce-react .
 
 Run Docker Container
 
+docker run -p 8083:80 ecommerce-react
 docker run -d -p 8083:80 ecommerce-react
 
 Check Running Containers
